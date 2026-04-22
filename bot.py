@@ -9,7 +9,7 @@ from telegram.ext import ApplicationBuilder
 BOT_TOKEN = os.environ.get("BOT_TOKEN")
 CHAT_ID = int(os.environ.get("CHAT_ID"))
 REEL_URL = "https://www.instagram.com/reel/DVqtOvjivva/?igsh=MXNlNHcxZnFhcHlrMw=="
-INTERVAL_HOURS = 0.05
+INTERVAL_HOURS = 1
 
 # ── Dummy web server to satisfy Render ───────────────────────
 class Handler(BaseHTTPRequestHandler):
