@@ -5,7 +5,7 @@ from telegram.ext import ApplicationBuilder
 
 # ── Config ────────────────────────────────────────────────────
 BOT_TOKEN = "8071045891:AAEUIsDyvE-LSTMtxT6O-RRTfRnGYlLmS7g"
-CHAT_ID = 5525340838
+CHAT_ID = -5152641004
 REEL_URL = "https://www.instagram.com/reel/DVqtOvjivva/?igsh=MXNlNHcxZnFhcHlrMw=="
 INTERVAL_HOURS = 1
 
