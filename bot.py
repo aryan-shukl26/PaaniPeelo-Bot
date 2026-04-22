@@ -1,11 +1,13 @@
+import os
 import asyncio
 import threading
 from http.server import HTTPServer, BaseHTTPRequestHandler
 from telegram.ext import ApplicationBuilder
 
+
 # ── Config ────────────────────────────────────────────────────
-BOT_TOKEN = "8071045891:AAEUIsDyvE-LSTMtxT6O-RRTfRnGYlLmS7g"
-CHAT_ID = -5152641004
+BOT_TOKEN = os.environ.get("BOT_TOKEN")
+CHAT_ID = int(os.environ.get("CHAT_ID"))
 REEL_URL = "https://www.instagram.com/reel/DVqtOvjivva/?igsh=MXNlNHcxZnFhcHlrMw=="
 INTERVAL_HOURS = 1
 
